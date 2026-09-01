@@ -5,8 +5,8 @@ description: Healthcare Business Data and Systems Analyst
 baseurl: ""
 url: "https://satishv121.github.io"
 
-# Use the GitHub Pages "Minimal" theme (pages-themes/minimal)
-remote_theme: pages-themes/minimal@v0.2.0
+# Use the Hydejack theme
+remote_theme: hydecorp/hydejack@v9
 plugins:
   - jekyll-remote-theme
 
