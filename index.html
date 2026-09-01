@@ -3,143 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MyWebPage</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background: linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%);
-      color: #222;
-      margin: 0;
-      padding: 2rem;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      gap: 1rem;
-      box-sizing: border-box;
-    }
-
-    .container {
-      width: min(960px, 95%);
-      background: #fff;
-      padding: 1.5rem 2rem;
-      border-radius: 8px;
-      box-shadow: 0 6px 24px rgba(16,24,40,0.08);
-      color: #111;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin: 0 0 0.5rem 0;
-      text-align: center;
-    }
-
-    p.lead {
-      margin: 0 0 1rem 0;
-      text-align: center;
-      color: #444;
-    }
-
-    /* Resume text: preserve formatting but allow wrapping */
-    pre.resume {
-      font-family: "Courier New", Menlo, Monaco, monospace;
-      white-space: pre-wrap; /* preserve line breaks and wrap long lines */
-      margin: 0;
-      font-size: 0.95rem;
-      line-height: 1.35;
-      color: #222;
-    }
-  </style>
+  <title>Satish V. Bulusu — Resume</title>
+  <meta name="description" content="Satish V. Bulusu — Healthcare Business Data and Systems Analyst. Experience: BCBSMA, Fallon Community Health Plan, and more.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Hello, This is SatishV</h1>
-    <p class="lead">This is my first Git-tracked webpage.</p>
+  <main class="container" role="main">
+    <header>
+      <h1>Satish V. Bulusu</h1>
+      <address>
+        103 Harrington Ave., Shrewsbury MA<br>
+        <a href="mailto:bulusu.satish@gmail.com">bulusu.satish@gmail.com</a> • (660) 528-0493
+      </address>
+    </header>
 
-    <pre class="resume">Satish V. Bulusu
-                  
-103 Harrington Ave.						                                       bulusu.satish@gmail.com
-Shrewsbury MA       						         (660)528-0493
+    <section class="summary">
+      <p>Established Healthcare Business Data and Systems Analyst with proven ability to perform in diverse business functions and expertise in requirements elicitation, system design, testing, data analysis, and enterprise data warehousing.</p>
+    </section>
 
-Established Healthcare Business Data and Systems Analyst with proven ability to perform in diverse business functions and expertise in:
-* Project requirements elicitation and gathering
-* Business use case scenarios
-* System workflow design
-* Functional and user acceptance testing
-* Complete project lifecycle (SDLC) methodology
-* Data analysis of large and complex data sets
-* Knowledge of SQL, Python queries, packages and stored procedures
-* Enterprise data warehouse mapping and ETL.
-* Handling various IT tools
+    <section id="experience">
+      <h2>Related Experience</h2>
 
-RELATED EXPERIENCE:
-Sr. Business Systems Analyst,
-Blue Cross Blue Shield of Massachusetts, Boston, MA (2014 � Present)
+      <article>
+        <h3>Sr. Business Systems Analyst — Blue Cross Blue Shield of Massachusetts</h3>
+        <p class="meta">Boston, MA (2014 — Present)</p>
+        <p>As a part of the Underwriting Business Solutions department at BCBSMA, my responsibilities include:</p>
+        <ul>
+          <li>Implement and maintain solutions on the Stepwise rating system.</li>
+          <li>Perform analysis on rating data, actuarial formula inventory and payer claims, member benefit structure.</li>
+          <li>Analysis and design of projects of varying scope and requirements.</li>
+          <li>Assist in configuration of business and IT tools and systems.</li>
+          <li>Define and maintain product backlog and create functional specification documents while working with client partners and development teams.</li>
+          <li>Implement Agile / Sprint methodology and best practices.</li>
+          <li>Provide subject-matter expertise and root-cause analysis as an analytics product owner.</li>
+        </ul>
+      </article>
 
-As a part of the Underwriting Business Solutions department at BCBSMA, my job duties include,
+      <article>
+        <h3>Business Systems Analyst — Fallon Community Health Plan</h3>
+        <p class="meta">Worcester, MA (2011 — 2013)</p>
+        <p>Worked in IT Business Services / Business Intelligence. Key contributions:</p>
+        <ul>
+          <li>Analysis, design and development of project requirements for ACA compliancy using agile methodologies.</li>
+          <li>Prepared Business Requirements Document (BRD) and Functional Specifications Document (FSD).</li>
+          <li>Microsoft BI development: SSIS, SSRS and SSAS.</li>
+          <li>Facilitated design sessions and gathered sign-offs from business and IT stakeholders.</li>
+          <li>Developed release plans with user-stories and priority points to coordinate QA test strategy.</li>
+          <li>Entity-Relationship modeling and Data Warehouse mapping with a detailed rules engine.</li>
+          <li>End-to-end testing and integration strategy; experience with EDI/HIPAA standards and QNXT claims system.</li>
+        </ul>
+      </article>
 
-* Implement and maintain solutions on the Stepwise rating system.
-* Perform analysis on rating data, actuarial formula inventory and payer claims, member benefit structure.
-* Analysis and design of projects of varying scope and requirements. 
-* Assist in configuration of business and IT tools and systems.
-* Define and maintain product backlog, create functional specifications documents while working in conjunction with client partners and development teams.
-* Implement Agile /Sprint methodology and best practices.
-* In- depth knowledge and understanding of all systems and touchpoints that impact business operations. 
-* Wear multiple hats including that of an analytics product owner. Go to person for subject matter expertise and root-cause analysis.
+      <article>
+        <h3>Business Intelligence Developer — Blue Cross Blue Shield of Nebraska / CoreLink Solutions</h3>
+        <p class="meta">Omaha, NE (Aug 2010 — May 2011)</p>
+        <ul>
+          <li>Participated in large systems migration moving extensive membership and claims data.</li>
+          <li>Developed complex reports to meet user requirements and performed end-to-end testing.</li>
+        </ul>
+      </article>
 
-Business Systems Analyst, 
-Fallon Community Health Plan, Worcester, MA (2011 � 2013)
+      <article>
+        <h3>Project Developer — City of Omaha</h3>
+        <p class="meta">Omaha, NE (May 2010 — May 2011)</p>
+        <ul>
+          <li>Developed the City-Audit database as part of the Energy Audit project.</li>
+          <li>Performed data modeling and ETL to enhance the web application; presented to city officials.</li>
+        </ul>
+      </article>
 
-As an active team player in the IT Business Services/Business Intelligence department, my job duties include,
-* Perform successful analysis, design and development of project requirements for ACA compliancy using agile methodologies.
-* Responsible for completion of Business Requirements Document (BRD) and Functional Specifications Document (FSD).
-* Strong Microsoft BI development skills-set including SSIS/SSRS and SSAS.
-* Facilitated and collaborated in design sessions between the business and IT user community and gathered sign-offs on documentation.  
-* Developed Release Plan with user-stories and priority points assigned for efficient collaboration with QA Test strategy plan.
-* Effective Client-Vendor engagement communication for successful data interchange.
-* Exceptional Data Analysis skills and close collaboration with developers for effective product development.
-* Entity-Relationship modeling and Data Warehouse mapping with a detailed rules engine for easy business understanding.
-* �End-to-End� testing and strategy for system integration.
-* Worked with various EDI HL7 standards and their dependencies on the project.
-* Complete understanding and implementation knowledge of all HIPAA 5010 EDI standard transactions and ICD 9 � ICD 10 conversion.
-* Comprehensive understanding of QNXT v4.8 Claims processing system. 
-* Always adhered to professional etiquette and displayed highest ethical conduct.
-TOOLS ENVIRONMENT:
-Optum Stepwise rating engine, QCSI/ Trizetto QNXT, FACETS,  MS Visio, MindMapper, Anaconda Navigator for Python and R, Microsoft SQL Server Management Studio, Oracle SQL Developer,  ERWin Data Modeler,  Tableau, SSRS, Crystal Reports, Toad, Jira/ Confluence, HP Quality Center, BMC Service Desk Express, etc.
+      <article>
+        <h3>MIS Analyst — Ocwen Financial Solutions</h3>
+        <p class="meta">Bangalore, India (Feb 2005 — Feb 2007)</p>
+        <ul>
+          <li>Developed and maintained database tables for loan servicing business processes.</li>
+          <li>Built BI reports and dashboards with performance metrics for management.</li>
+        </ul>
+      </article>
+    </section>
 
+    <section id="tools">
+      <h2>Tools & Environment</h2>
+      <p>Optum Stepwise rating engine, QCSI/Trizetto QNXT, FACETS, MS Visio, MindMapper, Anaconda (Python/R), Microsoft SQL Server Management Studio, Oracle SQL Developer, ERWin Data Modeler, Tableau, SSRS, Crystal Reports, Toad, Jira/Confluence, HP Quality Center, BMC Service Desk Express.</p>
+    </section>
 
-OTHER RELATED EXPERINCE: 
+    <section id="education">
+      <h2>Education & Training</h2>
+      <ul>
+        <li>MS, Management Information Systems — University of Nebraska</li>
+        <li>BS, Electrical and Electronics Engineering — Vishvesvaraya Technological University</li>
+        <li>Certification in Systems Analysis and Design</li>
+        <li>Certification in Project Management</li>
+      </ul>
+    </section>
 
-Business Intelligence Developer, 
-BLUE CROSS BLUE SHIELD OF Nebraska, Omaha, NE			    Aug 2010 - May 2011
-CoreLink Solutions was formed by integration of Blue Cross Blue Shield of Nebraska (BCBSNE) and Blue Cross Blue Shield of North Dakota (BCBSND). This helped in expanding the Plans offering and increasing the membership base of either companies.
-* Involved with a large systems migration process that involved transition of huge membership and claims data. 
-* Developed complex reports as per the user functional requirements.
-* Updated code standards and performed extensive end-to-end testing of code to meet release cycle timelines.
-TOOLS ENVIRONMENT:
-Microsoft BI Stack of SSRS, SSAS and SSIS, MS Project, MS Visio, SQL, E/R Studio, etc.
-
-Project Developer, 
-CITY OF OMAHA, Omaha, NE 							  May 2010 � May 2011
-* Successfully developed the �City� Audit database as part of the Energy Audit project.
-* Performed Data modeling and E-T-L functionality to enhance the web application.
-* Gave a successful demo and presentation of the product to the City officials.
-MIS Coordinator/Analyst,
-OCWEN FINANCIAL SOLUTIONS, Bangalore, India					         Feb 2005-Feb 2007
-* Develop and maintain database tables under Loan Servicing business process.
-* Develop BI Reports/Dashboard performance metrics and present to management on a timely schedule.
-* Prepared turnaround-time (TAT) and other benchmark analytics to track accuracy.
-
-
-EDUCATION AND TRAINING:
-* MS, Management Information Systems, Department of Information Systems and Quantitative Analysis, the University of Nebraska.
-* BS, Electrical and Electronics Engineering, Vishvesvaraya Technological University.
-* Certification in Systems Analysis and Design.
-* Certification in Project Management.
-2 
-
-</pre>
-  </div>
+    <footer>
+      <p><a href="SatishBulusu_Resume111.txt" download>Download resume (TXT)</a></p>
+    </footer>
+  </main>
 </body>
 </html>
